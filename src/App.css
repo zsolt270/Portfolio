@@ -1,0 +1,39 @@
+/* Majd a body-t és a span-t le kell váltani osztályokra és kell belőlük csinálni darkot és lightot, majd pedig azt váltogatni */
+body {
+	background-color: var(--darkModeBG) !important;
+	color: var(--darkModeText) !important;
+}
+span:hover {
+	color: var(--darkModeTextOnHover) !important;
+}
+
+/* Ezek a carousel kártyák háttereinek színei és boxshadowja hovernél és effektje */
+/* mondjuk ezt majd lehet át kell vinni a caro item componentbe style.moduleként importálni */
+.darkCarodiv {
+	background-color: var(--darkModeCaroDivBG);
+}
+.lightCarodiv {
+	background-color: var(--lightModeCaroDivBG);
+}
+
+.darkCarodiv,
+.lightCarodiv {
+	width: 25%;
+	min-height: 30rem;
+	margin-left: 30rem;
+	box-shadow: 0;
+	transition: box-shadow 0.3s, scale 0.3s;
+	border-radius: 0.5rem;
+}
+
+.darkCarodiv:hover {
+	box-shadow: var(--darkModeCaroDivShadow) 0px 0px 15px 10px;
+}
+.lightCarodiv:hover {
+	box-shadow: var(--lightModeCaroDivShadow) 0px 0px 15px 10px;
+}
+
+.darkCarodiv:hover,
+.lightCarodiv:hover {
+	scale: 105%;
+}
