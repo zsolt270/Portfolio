@@ -1,4 +1,5 @@
 import "./App.css";
+import pic from "./assets/programming.svg";
 
 function App() {
 	return (
@@ -9,10 +10,11 @@ function App() {
 			</p>
 			<div className='darkCarodiv'>ez a div </div>
 
-			<img
-				src='./assets/undraw_coding_re_iv62.svg'
+			<div className='imgDiv'></div>
+			{/* <img
+				src={pic}
 				alt=''
-			/>
+			/> */}
 		</>
 	);
 }

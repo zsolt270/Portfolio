@@ -7,6 +7,7 @@ span:hover {
 	color: var(--darkModeTextOnHover) !important;
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------- */
 /* Ezek a carousel kártyák háttereinek színei és boxshadowja hovernél és effektje */
 /* mondjuk ezt majd lehet át kell vinni a caro item componentbe style.moduleként importálni */
 .darkCarodiv {
@@ -36,4 +37,12 @@ span:hover {
 .darkCarodiv:hover,
 .lightCarodiv:hover {
 	scale: 105%;
+}
+/* ---------------------------------------------------------------------------------------------- */
+
+.imgDiv {
+	background-image: url("./assets/programming.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	min-height: 35rem;
 }
