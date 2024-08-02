@@ -1,21 +1,15 @@
-import "./App.css";
-import pic from "./assets/programming.svg";
+import styles from "./App.module.css";
+import Header from "./components/Header";
+import Main from "./components/Main";
 
 function App() {
 	return (
-		<>
-			<h1>Valami h1</h1>
-			<p className='fw-bold'>
-				Valami szöveg és egy <span>span</span>
-			</p>
-			<div className='darkCarodiv'>ez a div </div>
-
-			<div className='imgDiv'></div>
-			{/* <img
-				src={pic}
-				alt=''
-			/> */}
-		</>
+		<div className={`container-fluid ${styles.darkBody}`}>
+			<div className='container'>
+				<Header />
+				<Main />
+			</div>
+		</div>
 	);
 }
 

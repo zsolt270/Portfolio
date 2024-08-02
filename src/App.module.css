@@ -1,10 +1,27 @@
 /* Majd a body-t és a span-t le kell váltani osztályokra és kell belőlük csinálni darkot és lightot, majd pedig azt váltogatni */
-body {
-	background-color: var(--darkModeBG) !important;
+.darkBody {
+	background-color: var(--darkModeBG);
 	color: var(--darkModeText) !important;
 }
-span:hover {
-	color: var(--darkModeTextOnHover) !important;
+
+.lightkBody {
+	background-color: var(--lightModeBG);
+	color: var(--lightModeText);
+}
+.darkBody a {
+	color: var(--darkModeText);
+	text-decoration: none;
+}
+
+.lightBody a {
+	color: var(--lightModeText);
+}
+.darkkBody span:hover {
+	color: var(--darkModeTextOnHover);
+}
+
+.lightkBody span:hover {
+	color: var(--lighModeTextOnHover);
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------- */

@@ -1,0 +1,8 @@
+.darkDropdown:hover {
+}
+.darkDropdownMenu {
+	background-color: var(--darkModeBG) !important;
+}
+.darkDropdownItem:hover {
+	background-color: var(--darkModeText) !important;
+}
