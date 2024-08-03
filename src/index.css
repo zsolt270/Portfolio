@@ -1,4 +1,4 @@
-/* ezeket a színeket fogom használni light/dark modeba */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
 	--darkModeBG: rgb(16, 16, 16);
@@ -13,5 +13,6 @@
 	--lightModeCaroDivBG: rgba(0, 0, 0, 0.02);
 	--lightModeCaroDivShadow: rgba(0, 0, 0, 0.06);
 }
-
-/* font familit be kell importolni: Work sans vagy mi */
+body {
+	font-family: "Work Sans", sans-serif !important;
+}

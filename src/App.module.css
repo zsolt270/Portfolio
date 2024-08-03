@@ -2,32 +2,30 @@
 .darkBody {
 	background-color: var(--darkModeBG);
 	color: var(--darkModeText) !important;
+	transition: all 0.5s;
+}
+.lightBody {
+	background-color: var(--lightModeBG);
+	color: var(--lightModeText) !important;
+	transition: all 0.5s;
 }
 
-.lightkBody {
-	background-color: var(--lightModeBG);
-	color: var(--lightModeText);
-}
-.darkBody a {
-	color: var(--darkModeText);
+.darkBody a,
+.lightBody a {
 	text-decoration: none;
 }
 
+.darkBody a {
+	color: var(--darkModeText);
+}
 .lightBody a {
 	color: var(--lightModeText);
-}
-.darkkBody span:hover {
-	color: var(--darkModeTextOnHover);
-}
-
-.lightkBody span:hover {
-	color: var(--lighModeTextOnHover);
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------- */
 /* Ezek a carousel kártyák háttereinek színei és boxshadowja hovernél és effektje */
 /* mondjuk ezt majd lehet át kell vinni a caro item componentbe style.moduleként importálni */
-.darkCarodiv {
+/* .darkCarodiv {
 	background-color: var(--darkModeCaroDivBG);
 }
 .lightCarodiv {
@@ -54,12 +52,12 @@
 .darkCarodiv:hover,
 .lightCarodiv:hover {
 	scale: 105%;
-}
+} */
 /* ---------------------------------------------------------------------------------------------- */
 
-.imgDiv {
+/* .imgDiv {
 	background-image: url("./assets/programming.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	min-height: 35rem;
-}
+} */

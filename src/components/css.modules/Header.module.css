@@ -1,8 +1,56 @@
-.darkDropdown:hover {
+/* dark mode toggler styling */
+.darkThemeToggler:hover,
+.lightThemeToggler:hover {
+	cursor: pointer;
 }
-.darkDropdownMenu {
-	background-color: var(--darkModeBG) !important;
+/* dark mode toggler styling end*/
+
+/* hamburger styling */
+.darkHamburger {
+	border: none !important;
+	box-shadow: 0px 0px 5px 5px var(--darkModeCaroDivShadow) !important;
 }
-.darkDropdownItem:hover {
-	background-color: var(--darkModeText) !important;
+
+.lightHamburger {
+	border: none !important;
+	box-shadow: 0px 0px 5px 5px var(--lightModeCaroDivShadow) !important;
 }
+
+/* hamburger styling end*/
+
+/* Navlink styling */
+.lightNavLink::after,
+.darkNavLink::after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 2px;
+	transition: width 0.4s;
+}
+.lightNavLink:hover::after,
+.darkNavLink:hover::after {
+	width: 100%;
+}
+
+.darkNavLink:hover,
+.lightNavLink:hover {
+	cursor: pointer;
+	transition: all 0.4s;
+}
+
+.lightNavLink::after {
+	background: var(--lighModeTextOnHover);
+}
+
+.lightNavLink:hover {
+	color: var(--lighModeTextOnHover);
+}
+
+.darkNavLink::after {
+	background: var(--darkModeTextOnHover);
+}
+
+.darkNavLink:hover {
+	color: var(--darkModeTextOnHover);
+}
+/* Navlink styling end*/

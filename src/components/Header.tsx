@@ -1,24 +1,34 @@
-// import style from "./css.modules/Header.module.css";
+import style from "./css.modules/Header.module.css";
+import { useContext } from "react";
+import { ThemeContext } from "../services/providers/themeContext";
+import { useGenerateNavLinks } from "../hooks/useGenerateNavLinks";
+import Select from "./ui/Select";
 
 export default function Header() {
+	const themeContext = useContext(ThemeContext);
+	const navLinks = useGenerateNavLinks();
+
 	return (
 		<>
 			<header>
-				<nav className='navbar navbar-expand-lg '>
+				<nav className='navbar navbar-expand-md '>
 					<div className='container-fluid px-0 mt-4'>
 						<a
-							className='navbar-brand'
+							className='pb-1 pe-4'
 							href='#'
 						>
-							<i className='bi bi-house-fill'></i>
-							{/* <i
-								className={`bi ${
-									style.lightmode ? "bi-house" : "bi-house-fill"
+							<i
+								className={`bi fs-5  ${
+									themeContext?.islight ? "bi-house" : "bi-house-fill"
 								}`}
-							></i> */}
+							></i>
 						</a>
 						<button
-							className='navbar-toggler'
+							className={`navbar-toggler ${
+								themeContext?.islight
+									? style.lightHamburger
+									: style.darkHamburger
+							}`}
 							type='button'
 							data-bs-toggle='collapse'
 							data-bs-target='#navbarScroll'
@@ -26,66 +36,28 @@ export default function Header() {
 							aria-expanded='false'
 							aria-label='Toggle navigation'
 						>
-							<span className='navbar-toggler-icon'></span>
+							<span className='navbar-toggler-icon '></span>
 						</button>
 						<div
 							className='collapse navbar-collapse w-100 justify-content-between'
 							id='navbarScroll'
 						>
-							{/* ide kell egy select a nyelvnek és a thememodenak*/}
-
-							<div className='navbar-nav'>
-								<a className='nav-item mb-0'>About</a>
-								<a className='nav-item mb-0'>Skills</a>
-								<a className='nav-item mb-0'>Project</a>
-								<a className='nav-item mb-0'>Contact</a>
+							<div className='navbar-nav gap-2 gap-md-4 pt-1 mb-3 mb-md-0'>
+								{navLinks}
 							</div>
 							<div className='d-flex gap-3'>
-								{/* wave icon kéne ide ami a legtetejére viszi */}
-								<p className='mb-0'>select</p>
-								<i className='bi bi-brightness-high-fill'></i>
-								{/* ez kell majd */}
-								{/* <i
-									class={`bi ${
-										style.lightmode ? "bi-brightness-high-fill" : "bi-moon-fill"
-									}`}
-								></i> */}
+								<Select />
+								<i
+									className={`bi fs-5 ${
+										themeContext?.islight
+											? `bi-moon-fill ${style.lightThemeToggler}`
+											: `bi-sun-fill ${style.darkThemeToggler}`
+									} `}
+									onClick={() => {
+										themeContext?.setIsLight(!themeContext.islight);
+									}}
+								></i>
 							</div>
-							{/* <ul className='navbar-nav w-100 justify-content-end'>
-								<li className='nav-item'>
-									<a
-										className='nav-link'
-										aria-current='page'
-										href='#'
-									>
-										About
-									</a>
-								</li>
-								<li className='nav-item'>
-									<a
-										className='nav-link'
-										href='#'
-									>
-										Skills
-									</a>
-								</li>
-								<li className='nav-item'>
-									<a
-										className='nav-link '
-										aria-disabled='true'
-									>
-										Projects
-									</a>
-								</li>
-								<li className='nav-item'>
-									<a
-										className='nav-link '
-										aria-disabled='true'
-									>
-										Contact
-									</a>
-								</li>
-							</ul> */}
 						</div>
 					</div>
 				</nav>

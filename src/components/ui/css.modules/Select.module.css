@@ -1,0 +1,15 @@
+.options {
+	position: absolute;
+	list-style-type: none;
+	border-radius: 0.35em;
+	margin-top: 0.25em;
+	min-width: 3rem;
+	z-index: 9999999999;
+	padding-left: 0;
+	text-align: center;
+}
+
+.selectDiv:hover,
+.options:hover {
+	cursor: pointer;
+}
