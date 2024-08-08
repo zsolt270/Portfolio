@@ -1,6 +1,6 @@
-import AboutSection from "./AboutSection";
-import ProjectsSection from "./ProjectsSection";
-import SkillsSection from "./SkillsSection";
+import AboutSection from "./sections/AboutSection";
+import ProjectsSection from "./sections/ProjectsSection";
+import SkillsSection from "./sections/SkillsSection";
 
 export default function Main() {
 	return (

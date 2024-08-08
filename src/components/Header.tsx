@@ -11,7 +11,7 @@ export default function Header() {
 	return (
 		<>
 			<header>
-				<nav className='navbar navbar-expand-md '>
+				<nav className='navbar navbar-expand-md mb-5'>
 					<div className='container-fluid px-0 mt-4'>
 						<a
 							className='pb-1 pe-4'
