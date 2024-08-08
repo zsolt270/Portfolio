@@ -1,0 +1,86 @@
+.imgDiv {
+	background-image: url("../../../assets/programming.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 40rem;
+	min-height: 22.5rem;
+	animation: levitateImgAnimation 3s linear infinite;
+}
+
+.waving {
+	animation: wavingAnimation 8s linear 2s infinite;
+}
+
+.levitateText:hover {
+	animation: levitateTextAnimation 2s linear;
+}
+
+@keyframes wavingAnimation {
+	0% {
+		transform: rotate(0deg);
+	}
+	15% {
+		transform: rotate(25deg);
+	}
+	30% {
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes levitateImgAnimation {
+	0% {
+		transform: none;
+	}
+	50% {
+		transform: translateY(-1rem);
+	}
+	100% {
+		transform: none;
+	}
+}
+
+@keyframes levitateTextAnimation {
+	0% {
+		transform: none;
+	}
+	50% {
+		transform: translateY(-0.5rem);
+	}
+	100% {
+		transform: none;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.imgDiv {
+		min-width: 30rem;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.imgDiv {
+		min-width: 25rem;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.imgDiv {
+		min-width: 21.5rem;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.imgDiv {
+		min-height: 20rem;
+	}
+}
+@media only screen and (max-width: 450px) {
+	.imgDiv {
+		margin-bottom: 0rem !important;
+		min-height: 16.5rem;
+	}
+}
+@media only screen and (max-width: 370px) {
+	.imgDiv {
+		min-width: 15rem;
+		min-height: 15rem;
+	}
+}

@@ -14,7 +14,7 @@ function App() {
 				themeContext?.islight ? styles.lightBody : styles.darkBody
 			}`}
 		>
-			<div className='container'>
+			<div className='container px-sm-0'>
 				<Header />
 				<Main />
 				<Footer />

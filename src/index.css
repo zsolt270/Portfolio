@@ -2,7 +2,7 @@
 
 :root {
 	--darkModeBG: rgb(16, 16, 16);
-	--darkModeText: rgb(127, 129, 136);
+	--darkModeText: rgb(165, 165, 166);
 	--darkModeTextOnHover: white;
 	--darkModeCaroDivBG: rgb(30, 29, 28);
 	--darkModeCaroDivShadow: rgb(36, 36, 36);
@@ -15,4 +15,10 @@
 }
 body {
 	font-family: "Work Sans", sans-serif !important;
+	font-size: 1.1rem !important;
+}
+@media only screen and (max-width: 992px) {
+	body {
+		font-size: 1rem !important;
+	}
 }
