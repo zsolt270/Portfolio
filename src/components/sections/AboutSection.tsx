@@ -1,14 +1,29 @@
+import { useContext } from "react";
+import { LanguageContext } from "../../services/providers/languageContext";
 import waving from "../../assets/wave-icon.png";
 import style from "./css.modules/About.module.css";
+import * as AboutContent from "../../utils/contents/AboutContent.json";
 
 export default function AboutSection() {
+	const languageContext = useContext(LanguageContext);
+	let mainText;
+	let otherText;
+	if (languageContext?.language == "HU") {
+		mainText = AboutContent.HU.mainText.split(".");
+		otherText = AboutContent.HU.Other.split(":");
+	} else {
+		mainText = AboutContent.EN.mainText.split(".");
+		otherText = AboutContent.EN.Other.split(":");
+	}
 	return (
 		<div className='d-block d-md-flex gap-4 mb-5'>
 			<div>
 				<h2
 					className={`text-center text-md-start mb-3 mb-sm-2 ${style.levitateText}`}
 				>
-					Hello, I'm Zsolt{" "}
+					{languageContext?.language == "HU"
+						? AboutContent.HU.title
+						: AboutContent.EN.title}
 					<img
 						className={`pb-3 ${style.waving}`}
 						src={waving}
@@ -17,20 +32,15 @@ export default function AboutSection() {
 				</h2>
 				<div className={`${style.imgDiv} d-block d-md-none mb-4 mb-sm-5`}></div>
 				<p className={`${style.levitateText}`}>
-					My name is <span className='fw-bold'>Zsolt Balogh</span>. I am a
-					passionate, open-minded recently graduated software engineer from the
-					University of Dunaújváros.
-					<br />I like to work in a team, but I can also solve problems
-					independently and I can also work outside my comfort zone when needed.
-					My goal is to work as part of a dynamic team where I can encounter
-					challenging projects and where I can expand my professional
-					experience.
+					<span className='fw-bold'>{mainText[0]}.</span>
+					{mainText[1]}.
+					<br />
+					{mainText[2]}.{mainText[3]}
 				</p>
 
 				<p className={`${style.levitateText}`}>
-					<span className='fw-bold'>When im not programming:</span> i love
-					playing football, basketball, video/board games and listening to
-					music.
+					<span className='fw-bold'>{otherText[0]}: </span>
+					{otherText[1]}
 				</p>
 			</div>
 			<div className={`${style.imgDiv} d-none d-md-block`}></div>

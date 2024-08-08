@@ -1,0 +1,12 @@
+{
+	"HU": {
+		"title": "Hello, Zsolt vagyok ",
+		"mainText": "Balogh Zsolt hívnak. Nemrég végeztem a Dunaújvárosi Egyetemen mérnökinformatikus alapszakon. \n Amit rólam tudni kell, hogy szeretek precízen és csapatban dolgozni, de képes vagyok egyedül is megoldani problémákat, és ha kell, a komfortzónámon kívül is tudok dolgozni. Célom, hogy egy dinamikus csapat részeként dolgozhassak, ahol kihívásokkal teli projektekkel találkozhatok és bővíthetem szakmai tapasztalataimat",
+		"Other": "Amikor nem programozok: Általában focizom, kosárlabdázom, videó- vagy társasjátékozom, vagy csak zenét hallgatok."
+	},
+	"EN": {
+		"title": "Hello, I'm Zsolt ",
+		"mainText": "My name is Zsolt Balogh. I have recently graduated from the University of Dunaújváros with a degree in Bachelor of Computer Science. \n What you need to know about me is that I like to work precisely and in a team, but I am also able to solve problems on my own and I can work outside my comfort zone if I need to. My goal is to work as part of a dynamic team where I can encounter challenging projects and expand my professional experience",
+		"Other": "When im not programming: I usually play football, basketball, video/board games or just listen to music."
+	}
+}

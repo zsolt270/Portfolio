@@ -39,7 +39,7 @@ export default function Header() {
 							<span className='navbar-toggler-icon '></span>
 						</button>
 						<div
-							className='collapse navbar-collapse w-100 justify-content-between'
+							className='collapse navbar-collapse w-100 justify-content-between fs-6'
 							id='navbarScroll'
 						>
 							<div className='navbar-nav gap-2 gap-md-4 pt-1 mb-3 mb-md-0'>
