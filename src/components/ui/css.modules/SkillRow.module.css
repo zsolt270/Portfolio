@@ -1,0 +1,12 @@
+.lightSkill:hover {
+	color: black;
+	transform: scale(115%);
+}
+.darkSkill:hover {
+	color: white;
+	transform: scale(115%);
+}
+.lightSkill:hover,
+.darkSkill:hover {
+	transition: transform 0.3s ease-out;
+}
