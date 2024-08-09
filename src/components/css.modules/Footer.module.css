@@ -1,0 +1,13 @@
+.darkconnect i:hover {
+	color: white;
+}
+.lightconnect i:hover {
+	color: black;
+}
+
+.darkconnect a:hover,
+.lightconnect a:hover {
+	transition: transform 0.3s ease-out;
+	transform: scale(120%);
+	cursor: pointer;
+}

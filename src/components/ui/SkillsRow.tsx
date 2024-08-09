@@ -26,5 +26,5 @@ export default function SkillsRow({ texts, srcs }: SkillsRowProps) {
 		);
 	});
 
-	return <div className='row align-items-center mb-3 me-xl-5'>{collumns}</div>;
+	return <div className='row align-items-center mb-3 me-xl-3'>{collumns}</div>;
 }
