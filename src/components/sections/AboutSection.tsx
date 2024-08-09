@@ -18,7 +18,7 @@ export default function AboutSection() {
 	return (
 		<div className='d-block d-md-flex gap-4 mb-5'>
 			<div>
-				<h2
+				<h1
 					className={`text-center text-md-start mb-3 mb-sm-2 ${style.levitateText}`}
 				>
 					{languageContext?.language == "HU"
@@ -29,7 +29,7 @@ export default function AboutSection() {
 						src={waving}
 						alt='an icon about a hand waving'
 					/>
-				</h2>
+				</h1>
 				<div className={`${style.imgDiv} d-block d-md-none mb-4 mb-sm-5`}></div>
 				<p className={`${style.levitateText}`}>
 					<span className='fw-bold'>{mainText[0]}.</span>
