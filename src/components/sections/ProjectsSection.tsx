@@ -9,14 +9,14 @@ export default function ProjectsSection() {
 	const languageContext = useContext(LanguageContext);
 	const themeContext = useContext(ThemeContext);
 	return (
-		<div>
+		<div className='mt-5'>
 			<SectionTitle
 				title={
 					languageContext?.language === "HU" ? "Projekteim" : "My Projects"
 				}
 			/>
 			<Carousel />
-			<div className='text-center'>
+			<div className='text-center mt-4'>
 				<p>FOR MORE PROJECTS</p>
 				<a
 					target='_blank'

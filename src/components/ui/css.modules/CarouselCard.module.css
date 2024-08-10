@@ -9,7 +9,7 @@
 
 .lightCarouselCard,
 .darkCarouselCard {
-	max-width: 25rem;
+	max-width: 22.5rem;
 	box-shadow: 0;
 	transition: box-shadow 0.3s, scale 0.3s;
 }

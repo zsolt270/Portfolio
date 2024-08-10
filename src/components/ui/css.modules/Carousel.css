@@ -1,0 +1,7 @@
+.slick-slide > div {
+	margin: 0 0.5rem;
+}
+.slick-track {
+	padding-top: 2.5rem;
+	min-height: 43rem;
+}
