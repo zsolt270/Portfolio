@@ -1,0 +1,9 @@
+.lightSlickPrev::before,
+.lightSlickNext::before {
+	color: black;
+}
+
+.darkSlickPrev::before,
+.darkSlickNext::before {
+	color: white;
+}
