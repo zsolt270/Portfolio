@@ -65,7 +65,7 @@ export default function SkillsSection() {
 					className='row my-4'
 				>
 					<h2>
-						{languageContext?.language === "HU" ? "Készségeim" : "My Skill"}
+						{languageContext?.language === "HU" ? "Készségeim" : "My Skills"}
 					</h2>
 				</div>
 				<SkillsRow
@@ -108,7 +108,7 @@ export default function SkillsSection() {
 			<>
 				<div
 					id={languageContext?.language == "HU" ? "Készségek" : "Skills"}
-					className='row my-4'
+					className='row text-center my-4'
 				>
 					<h2>
 						{languageContext?.language === "HU" ? "Készségeim" : "My Skill"}
@@ -137,7 +137,7 @@ export default function SkillsSection() {
 			<>
 				<div
 					id={languageContext?.language == "HU" ? "Készségek" : "Skills"}
-					className='row my-4'
+					className='row text-center my-4'
 				>
 					<h2>
 						{languageContext?.language === "HU" ? "Készségeim" : "My Skill"}

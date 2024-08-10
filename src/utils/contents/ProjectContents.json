@@ -1,0 +1,52 @@
+{
+	"restcountry": {
+		"src": "../../assets/projects/restcountry.png",
+		"title": "Rest Country",
+		"text": {
+			"HU": "valami",
+			"EN": "something"
+		},
+		"demoLink": "https://zsolt270.github.io/REST-COUNTRY/",
+		"githubLink": "https://github.com/zsolt270/REST-COUNTRY"
+	},
+	"todoapp": {
+		"src": "../../assets/projects/todoapp.png",
+		"title": "Todo App",
+		"text": {
+			"HU": "valami",
+			"EN": "something"
+		},
+		"demoLink": "https://github.com/zsolt270/TodoApp",
+		"githubLink": "https://github.com/zsolt270/TodoApp"
+	},
+	"piano": {
+		"src": "../../assets/projects/piano.png",
+		"title": "Coloured-Piano",
+		"text": {
+			"HU": "valami",
+			"EN": "something"
+		},
+		"demoLink": "https://github.com/zsolt270/Coloured-Piano",
+		"githubLink": "https://github.com/zsolt270/Coloured-Piano"
+	},
+	"loopstudios": {
+		"src": "../../assets/projects/loopstudios.png",
+		"title": "Loop Studios",
+		"text": {
+			"HU": "valami",
+			"EN": "something"
+		},
+		"demoLink": "https://zsolt270.github.io/Loopstudios-landing-page/",
+		"githubLink": "https://github.com/zsolt270/Loopstudios-landing-page"
+	},
+	"portfolio": {
+		"src": "../../assets/projects/portfolio.png",
+		"title": "My Portfolio",
+		"text": {
+			"HU": "valami",
+			"EN": "something"
+		},
+		"demoLink": "",
+		"githubLink": "https://github.com/zsolt270/Portfolio"
+	}
+}

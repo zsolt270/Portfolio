@@ -6,3 +6,13 @@
 	/* ezt kell majd változtatni ha a hover ki lenne takarva */
 	min-height: 43rem;
 }
+
+@media screen and (max-width: 768px) {
+	.slick-next {
+		right: -20px;
+	}
+
+	.slick-prev {
+		left: -20px;
+	}
+}

@@ -70,6 +70,7 @@ export default function Carousel() {
 	};
 	return (
 		<Slider {...settings}>
+			{/* ide mapelni kéne a projectcontentet és akkor úgy átpasszolni a propokat */}
 			<CarouselCard
 				src={restcountry}
 				title={"Rest Country"}

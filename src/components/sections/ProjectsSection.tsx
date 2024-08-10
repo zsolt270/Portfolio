@@ -12,7 +12,7 @@ export default function ProjectsSection() {
 			id={languageContext?.language == "HU" ? "Projektek" : "Projects"}
 			className='mt-5'
 		>
-			<div className='row mt-4'>
+			<div className='row text-center text-md-start mt-4'>
 				<h2>
 					{languageContext?.language === "HU" ? "Projekteim" : "My Projects"}
 				</h2>
