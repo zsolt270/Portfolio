@@ -1,20 +1,17 @@
 import { useContext } from "react";
 import { ThemeContext } from "../../services/providers/themeContext";
+import { LanguageContext } from "../../services/providers/languageContext";
 import CarouselCard from "./CarouselCard";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./css.modules/Carousel.css";
 import { NextArrow, PrevArrow } from "./SliderArrow";
-import restcountry from "../../assets/projects/restcountry.png";
-import todoapp from "../../assets/projects/todoapp.png";
-import piano from "../../assets/projects/piano.png";
-import loopstudios from "../../assets/projects/loopstudios.png";
-import portfolio from "../../assets/projects/portfolio.png";
+import * as ProjectsContent from "../../utils/contents/ProjectContents.json";
 
 export default function Carousel() {
 	const themeContext = useContext(ThemeContext);
-
+	const languageContext = useContext(LanguageContext);
 	const settings = {
 		accessibility: true,
 		dots: false,
@@ -70,32 +67,23 @@ export default function Carousel() {
 	};
 	return (
 		<Slider {...settings}>
-			{/* ide mapelni kéne a projectcontentet és akkor úgy átpasszolni a propokat */}
-			<CarouselCard
-				src={restcountry}
-				title={"Rest Country"}
-				islight={themeContext?.islight}
-			/>
-			<CarouselCard
-				src={todoapp}
-				title={"Rest Country"}
-				islight={themeContext?.islight}
-			/>
-			<CarouselCard
-				src={piano}
-				title={"Rest Country"}
-				islight={themeContext?.islight}
-			/>
-			<CarouselCard
-				src={loopstudios}
-				title={"Rest Country"}
-				islight={themeContext?.islight}
-			/>
-			<CarouselCard
-				src={portfolio}
-				title={"Rest Country"}
-				islight={themeContext?.islight}
-			/>
+			{ProjectsContent.contents.map((content) => {
+				return (
+					<CarouselCard
+						key={content.title}
+						src={content.src}
+						title={content.title}
+						islight={themeContext?.islight}
+						text={
+							languageContext?.language == "HU"
+								? content.text.HU
+								: content.text.EN
+						}
+						demoLink={content.demoLink}
+						githubLink={content.githubLink}
+					/>
+				);
+			})}
 		</Slider>
 	);
 }

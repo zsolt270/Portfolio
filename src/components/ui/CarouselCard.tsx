@@ -5,13 +5,18 @@ type CarouselCardTProps = {
 	src: string;
 	title: string;
 	islight?: boolean;
-	// text
+	text: string;
+	demoLink: string;
+	githubLink: string;
 };
 
 export default function CarouselCard({
 	src,
 	title,
 	islight,
+	text,
+	demoLink,
+	githubLink,
 }: CarouselCardTProps) {
 	return (
 		<div className='d-flex justify-content-center'>
@@ -27,21 +32,14 @@ export default function CarouselCard({
 				/>
 				<div className={`card-body`}>
 					<h3 className='card-title'>{title}</h3>
-					<p className='card-text fs-6'>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id commodi
-						recusandae debitis saepe amet earum qui quam numquam aperiam dicta
-						veniam, vero molestiae nostrum sequi? Recusandae, cupiditate eius
-						laborum distinctio atque in quibusdam saepe corrupti velit placeat
-						odit fuga quisquam pariatur aspernatur quod perspiciatis ipsum,
-						officia, earum natus. Sapiente, veniam?
-					</p>
+					<p className='card-text fs-6'>{text}</p>
 					<div className='d-flex gap-3'>
 						<Button
-							href='https://zsolt270.github.io/REST-COUNTRY/'
+							href={demoLink}
 							text='Demo'
 						/>
 						<Button
-							href='https://github.com/zsolt270/REST-COUNTRY'
+							href={githubLink}
 							text='GitHub'
 						/>
 					</div>
