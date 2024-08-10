@@ -1,0 +1,27 @@
+.darkCarouselCard {
+	background-color: var(--darkModeCaroDivBG) !important;
+	color: var(--darkModeText) !important;
+}
+.lightCarouselCard {
+	background-color: var(--lightModeCaroDivBG) !important;
+	color: var(--lightModeText) !important;
+}
+
+.lightCarouselCard,
+.darkCarouselCard {
+	max-width: 22.5rem;
+	box-shadow: 0;
+	transition: box-shadow 0.3s, scale 0.3s;
+}
+
+.darkCarouselCard:hover {
+	box-shadow: var(--darkModeCaroDivShadow) 0px 0px 15px 10px;
+}
+.lightCarouselCard:hover {
+	box-shadow: var(--lightModeCaroDivShadow) 0px 0px 15px 10px;
+}
+
+.lightCarouselCard:hover,
+.darkCarouselCard:hover {
+	scale: 105%;
+}

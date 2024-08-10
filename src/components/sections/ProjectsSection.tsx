@@ -13,6 +13,7 @@ export default function ProjectsSection() {
 				}
 			/>
 			<Carousel />
+			{/* <h3>for more click here</h3> */}
 		</>
 	);
 }

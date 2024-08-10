@@ -1,14 +1,17 @@
-import { useContext } from "react";
-import { ThemeContext } from "../../services/providers/themeContext";
-import CarouselItem from "../ui/CarouselItem";
-import pic from "../../assets/projects/homepagelight.png";
-import pic2 from "../../assets/projects/todoapp.png";
-import pic3 from "../../assets/projects/loopstudios.png";
-import pic4 from "../../assets/projects/notifications.png";
-import pic5 from "../../assets/projects/portfolio.png";
-import pic6 from "../../assets/projects/piano.png";
-import "./css.modules/CarouselItem.css";
+import CarouselCard from "./CarouselCard";
+import restcountry from "../../assets/projects/restcountry.png";
+import todoapp from "../../assets/projects/todoapp.png";
+import piano from "../../assets/projects/piano.png";
+import loopstudios from "../../assets/projects/loopstudios.png";
+import portfolio from "../../assets/projects/portfolio.png";
 
 export default function Carousel() {
-	return <div className='mb-5'>valami</div>;
+	return (
+		<>
+			<CarouselCard
+				src={restcountry}
+				title={"Rest Country"}
+			/>
+		</>
+	);
 }
