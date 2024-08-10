@@ -1,0 +1,8 @@
+.lightLink:hover {
+	color: var(--darkModeTextOnHover);
+	transition: color 0.2s linear;
+}
+.darkLink:hover {
+	color: var(--lighModeTextOnHover);
+	transition: color 0.2s linear;
+}

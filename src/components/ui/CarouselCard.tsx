@@ -1,25 +1,27 @@
-import { useContext } from "react";
-import { ThemeContext } from "../../services/providers/themeContext";
 import style from "./css.modules/CarouselCard.module.css";
 import Button from "./Button";
 
 type CarouselCardTProps = {
 	src: string;
 	title: string;
+	islight?: boolean;
 	// text
 };
 
-export default function CarouselCard({ src, title }: CarouselCardTProps) {
-	const themeContext = useContext(ThemeContext);
+export default function CarouselCard({
+	src,
+	title,
+	islight,
+}: CarouselCardTProps) {
 	return (
 		<div
 			className={`card ${
-				themeContext?.islight ? style.lightCarouselCard : style.darkCarouselCard
+				islight ? style.lightCarouselCard : style.darkCarouselCard
 			}`}
 		>
 			<img
 				src={src}
-				className='card-img-top'
+				className={`${style.cardImgTop}`}
 				alt='...'
 			/>
 			<div className={`card-body`}>

@@ -9,7 +9,7 @@
 
 .lightCarouselCard,
 .darkCarouselCard {
-	max-width: 20rem;
+	max-width: 25rem;
 	box-shadow: 0;
 	transition: box-shadow 0.3s, scale 0.3s;
 }
@@ -24,4 +24,9 @@
 .lightCarouselCard:hover,
 .darkCarouselCard:hover {
 	scale: 105%;
+}
+
+.cardImgTop {
+	width: 100%;
+	height: 15rem;
 }
