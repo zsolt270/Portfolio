@@ -22,7 +22,7 @@ export default function AboutSection() {
 		>
 			<div>
 				<h1
-					className={`text-center text-md-start mb-3 mb-sm-2 ${style.levitateText}`}
+					className={`text-center text-md-start mb-3 mb-sm-2 ${style.levitateText} ${style.h1}`}
 				>
 					{languageContext?.language == "HU"
 						? AboutContent.HU.title

@@ -67,10 +67,17 @@
 	.imgDiv {
 		min-width: 21.5rem;
 	}
+
+	.h1 {
+		font-size: 1.9rem;
+	}
 }
 @media only screen and (max-width: 768px) {
 	.imgDiv {
 		min-height: 20rem;
+	}
+	.h1 {
+		font-size: calc(1.375rem + 1.5vw);
 	}
 }
 @media only screen and (max-width: 450px) {
