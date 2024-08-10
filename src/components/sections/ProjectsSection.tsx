@@ -8,7 +8,10 @@ export default function ProjectsSection() {
 	const languageContext = useContext(LanguageContext);
 	const themeContext = useContext(ThemeContext);
 	return (
-		<div className='mt-5'>
+		<div
+			id={languageContext?.language == "HU" ? "Projektek" : "Projects"}
+			className='mt-5'
+		>
 			<div className='row mt-4'>
 				<h2>
 					{languageContext?.language === "HU" ? "Projekteim" : "My Projects"}

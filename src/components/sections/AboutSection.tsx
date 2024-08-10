@@ -16,7 +16,10 @@ export default function AboutSection() {
 		otherText = AboutContent.EN.Other.split(":");
 	}
 	return (
-		<div className='d-block d-md-flex gap-4 mb-5'>
+		<div
+			id={languageContext?.language == "HU" ? "Rólam" : "About"}
+			className='d-block d-md-flex gap-4 mb-5'
+		>
 			<div>
 				<h1
 					className={`text-center text-md-start mb-3 mb-sm-2 ${style.levitateText}`}

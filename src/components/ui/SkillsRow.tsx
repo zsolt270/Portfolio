@@ -1,11 +1,13 @@
 import { useContext } from "react";
 import { ThemeContext } from "../../services/providers/themeContext";
-import style from "./css.modules/SkillRow.module.css";
+import style from "./css.modules/SkillsRow.module.css";
 
 type SkillsRowProps = {
 	texts: string[];
 	srcs: string[];
 };
+
+// lg(992px) ig jó az elrendezés
 
 export default function SkillsRow({ texts, srcs }: SkillsRowProps) {
 	const themeContext = useContext(ThemeContext);
@@ -26,5 +28,9 @@ export default function SkillsRow({ texts, srcs }: SkillsRowProps) {
 		);
 	});
 
-	return <div className='row align-items-center mb-3 me-xl-3'>{collumns}</div>;
+	return (
+		<div className='row justify-content-center align-items-center mb-3 me-xl-3'>
+			{collumns}
+		</div>
+	);
 }

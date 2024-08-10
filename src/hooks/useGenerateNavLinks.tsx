@@ -14,6 +14,7 @@ export const useGenerateNavLinks = () => {
 		navLinks = HeaderContent.HU.navLinks.map((navlink) => {
 			return (
 				<a
+					href={`#${navlink}`}
 					className={`nav-item mb-0 ${
 						themeContext?.islight ? style.lightNavLink : style.darkNavLink
 					}`}
@@ -27,6 +28,7 @@ export const useGenerateNavLinks = () => {
 		navLinks = HeaderContent.EN.navLinks.map((navlink) => {
 			return (
 				<a
+					href={`#${navlink}`}
 					className={`nav-item mb-0 ${
 						themeContext?.islight ? style.lightNavLink : style.darkNavLink
 					}`}

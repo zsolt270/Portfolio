@@ -8,7 +8,6 @@ export function NextArrow(props: any) {
 	const { className, style, onClick } = props;
 	if (themeContext?.islight) {
 		const nextArrow = className + " " + styles.lightSlickNext;
-		console.log(className);
 		return (
 			<div
 				className={nextArrow}

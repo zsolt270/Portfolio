@@ -7,7 +7,10 @@ export default function Footer() {
 	const languageContext = useContext(LanguageContext);
 	const themeContext = useContext(ThemeContext);
 	return (
-		<div className='row py-5 align-items-end'>
+		<div
+			id={languageContext?.language == "HU" ? "Kapcsolat" : "Contact"}
+			className='row py-5 align-items-end'
+		>
 			{/* mobile get in touch */}
 			<div className='col-12 text-center d-block d-sm-none mb-5'>
 				<h4 className='mb-3'>
