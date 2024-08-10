@@ -75,6 +75,16 @@ export default function Carousel() {
 				title={"Rest Country"}
 				islight={themeContext?.islight}
 			/>
+			<CarouselCard
+				src={loopstudios}
+				title={"Rest Country"}
+				islight={themeContext?.islight}
+			/>
+			<CarouselCard
+				src={portfolio}
+				title={"Rest Country"}
+				islight={themeContext?.islight}
+			/>
 		</Slider>
 	);
 }

@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { LanguageContext } from "../../services/providers/languageContext";
-import SectionTitle from "../ui/SectionTitle";
 import SkillsRow from "../ui/SkillsRow";
 import htmlIcon from "../../assets/icons/html-icon.svg";
 import cssIcon from "../../assets/icons/css-icon.svg";
@@ -53,9 +52,11 @@ export default function SkillsSection() {
 	];
 	return (
 		<>
-			<SectionTitle
-				title={languageContext?.language === "HU" ? "Készségeim" : "My Skill"}
-			/>
+			<div className='row my-4'>
+				<h2>
+					{languageContext?.language === "HU" ? "Készségeim" : "My Skill"}
+				</h2>
+			</div>
 			<SkillsRow
 				texts={skills.slice(0, 7)}
 				srcs={skillsIcons.slice(0, 7)}

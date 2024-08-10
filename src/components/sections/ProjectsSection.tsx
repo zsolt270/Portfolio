@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { LanguageContext } from "../../services/providers/languageContext";
 import { ThemeContext } from "../../services/providers/themeContext";
 import style from "./css.modules/ProjectSection.module.css";
-import SectionTitle from "../ui/SectionTitle";
 import Carousel from "../ui/Carousel";
 
 export default function ProjectsSection() {
@@ -10,11 +9,11 @@ export default function ProjectsSection() {
 	const themeContext = useContext(ThemeContext);
 	return (
 		<div className='mt-5'>
-			<SectionTitle
-				title={
-					languageContext?.language === "HU" ? "Projekteim" : "My Projects"
-				}
-			/>
+			<div className='row mt-4'>
+				<h2>
+					{languageContext?.language === "HU" ? "Projekteim" : "My Projects"}
+				</h2>
+			</div>
 			<Carousel />
 			<div className='text-center mt-4'>
 				<p>FOR MORE PROJECTS</p>
