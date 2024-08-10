@@ -11,7 +11,6 @@
 .lightButton,
 .darkButton {
 	text-align: center;
-	min-width: 7rem;
 	padding: 0.5rem 2rem;
 	border-radius: 0.5rem;
 }
@@ -19,7 +18,7 @@
 .lightButton i,
 .darkButton i {
 	position: absolute;
-	bottom: 16%;
+	bottom: 17%;
 	transform: translate(-1rem, 0rem);
 	opacity: 0;
 	transition: all 0.2s ease-out;

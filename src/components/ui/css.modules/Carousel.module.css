@@ -1,0 +1,14 @@
+.carousel {
+	display: flex;
+	justify-content: center;
+}
+/* .prevIcon {
+	display: block;
+	position: absolute !important;
+	left: -5%;
+	bottom: 50%;
+	z-index: 999;
+}
+.nextIcon {
+	position: absolute !important;
+} */
