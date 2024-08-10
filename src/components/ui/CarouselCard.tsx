@@ -24,7 +24,7 @@ export default function CarouselCard({ src, title }: CarouselCardTProps) {
 			/>
 			<div className={`card-body`}>
 				<h3 className='card-title'>{title}</h3>
-				<p className='card-text'>
+				<p className='card-text fs-6'>
 					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id commodi
 					recusandae debitis saepe amet earum qui quam numquam aperiam dicta
 					veniam, vero molestiae nostrum sequi? Recusandae, cupiditate eius

@@ -14,11 +14,12 @@ export default function Button({ href, text }: ButtonProps) {
 		<a
 			className={`${
 				themeContext?.islight ? style.lightButton : style.darkButton
-			}`}
+			} position-relative`}
 			target='_blank'
 			href={href}
 		>
 			{text}
+			<i className='bi bi-chevron-right '></i>
 		</a>
 	);
 }

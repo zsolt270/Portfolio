@@ -3,13 +3,13 @@
 	color: var(--darkModeText) !important;
 }
 .lightCarouselCard {
-	background-color: var(--lightModeCaroDivBG) !important;
+	background-color: var(--lightModeBG) !important;
 	color: var(--lightModeText) !important;
 }
 
 .lightCarouselCard,
 .darkCarouselCard {
-	max-width: 22.5rem;
+	max-width: 20rem;
 	box-shadow: 0;
 	transition: box-shadow 0.3s, scale 0.3s;
 }

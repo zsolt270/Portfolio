@@ -11,7 +11,8 @@
 	--lightModeText: gray;
 	--lighModeTextOnHover: black;
 	--lightModeCaroDivBG: rgba(0, 0, 0, 0.02);
-	--lightModeCaroDivShadow: rgba(0, 0, 0, 0.06);
+	--lightModeCaroDivShadow: rgba(0, 0, 0, 0.15);
+	--lightModeCaroDivButton: rgba(0, 0, 0, 0.05);
 }
 body {
 	font-family: "Work Sans", sans-serif !important;
