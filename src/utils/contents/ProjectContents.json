@@ -4,8 +4,8 @@
 			"src": "./src/assets/projects/restcountry.webp",
 			"title": "Rest Country",
 			"text": {
-				"HU": "valami",
-				"EN": "This project was a challenge from Frontend mentor "
+				"HU": "Ez a projekt a Frontend Mentor egyik kihívása volt. A Rest Country API-t használja, ahhoz hogy információt szolgáltasson az országokról. Lehetőséget ad országok keresésére és kontinensek szerinti szelektálására. Az oldal reszponzív és külön oldalakkal rendelkezik hibák és az adatok betöltése esetében. További információért nézze meg a projekt github adattárát.",
+				"EN": "This project was a challenge from Frontend Mentor. It uses the Rest Country API to provide informations about countries. It has an option to select countries by continents and a search bar. The website is responsive and has separate pages in case of loading and errors. For more informations about the project go to the project's github repository."
 			},
 			"demoLink": "https://zsolt270.github.io/REST-COUNTRY/",
 			"githubLink": "https://github.com/zsolt270/REST-COUNTRY"
@@ -15,7 +15,7 @@
 			"title": "Todo App",
 			"text": {
 				"HU": "valami",
-				"EN": "This project was a challenge from Frontend mentor "
+				"EN": "This project was a challenge from Frontend Mentor. The project lets u add todos to a list and then shows them. It also lets u change them to completed or active status, filter them and to delete a specific todo or all of them. I made this project as a fullstack app. I used HTML/CSS, Bootstrap, TypeScript, React for the Frontend and Node.js, Express.js. and Mongodb for the backend."
 			},
 			"demoLink": "https://github.com/zsolt270/TodoApp",
 			"githubLink": "https://github.com/zsolt270/TodoApp"
@@ -35,7 +35,7 @@
 			"title": "Loop Studios",
 			"text": {
 				"HU": "valami",
-				"EN": "This project was a challenge from Frontend mentor "
+				"EN": "This project was a challenge from Frontend Mentor. "
 			},
 			"demoLink": "https://zsolt270.github.io/Loopstudios-landing-page/",
 			"githubLink": "https://github.com/zsolt270/Loopstudios-landing-page"
@@ -44,8 +44,8 @@
 			"src": "./src/assets/projects/portfolio.webp",
 			"title": "My Portfolio",
 			"text": {
-				"HU": "Ez a projekt a portfólió oldalam, amelyet most is láthat. Legfőképpen arra törekedtem, hogy egy átlátható és szép dizájnt készítsek, néhány animációval, annak érdekében hogy életet vigyek a weboldalba. A projekthez HTML/CSS-t, Bootstrapet, TypeScriptet és Reactet használtam. Amennyiben érdekel a kód, akkor megtalálhatod a Githubomon.",
-				"EN": "This project is my Portfolio website, which u can see now. For my portfolio I focused on making a clear and nice looking design with some animations to give life to the website. I used HTML/CSS, Bootstrap, TypeScript and React to create the website. If u are interested in the code, u can check it out on my Github."
+				"HU": "Ez a projekt a portfólió oldalam, amelyet most is láthat. Legfőképpen arra törekedtem, hogy egy átlátható, reszponzív és szép dizájnt készítsek, néhány animációval, annak érdekében hogy életet vigyek a weboldalba. A projekthez HTML/CSS-t, Bootstrapet, TypeScriptet és Reactet használtam. Amennyiben érdekel a kód, akkor megtalálhatod a Githubomon.",
+				"EN": "This project is my Portfolio website, which u can see now. For my portfolio I focused on making a clear, responsive and nice looking design with some animations to give life to the website. For the project I used HTML/CSS, Bootstrap, TypeScript and React to create the website. If u are interested in the code, u can check it out on my Github."
 			},
 			"demoLink": "",
 			"githubLink": "https://github.com/zsolt270/Portfolio"
