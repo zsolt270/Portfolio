@@ -1,5 +1,7 @@
 # My Portfolio Website
 
+This project is my Portfolio website. For my portfolio I focused on making a clear and nice looking design with few animations to give life to the website.
+
 ## Table of contents
 
 - [Overview](#overview)

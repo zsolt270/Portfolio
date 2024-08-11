@@ -5,7 +5,7 @@
 			"title": "Rest Country",
 			"text": {
 				"HU": "valami",
-				"EN": "something"
+				"EN": "This project was a challenge from Frontend mentor "
 			},
 			"demoLink": "https://zsolt270.github.io/REST-COUNTRY/",
 			"githubLink": "https://github.com/zsolt270/REST-COUNTRY"
@@ -15,7 +15,7 @@
 			"title": "Todo App",
 			"text": {
 				"HU": "valami",
-				"EN": "something"
+				"EN": "This project was a challenge from Frontend mentor "
 			},
 			"demoLink": "https://github.com/zsolt270/TodoApp",
 			"githubLink": "https://github.com/zsolt270/TodoApp"
@@ -35,7 +35,7 @@
 			"title": "Loop Studios",
 			"text": {
 				"HU": "valami",
-				"EN": "something"
+				"EN": "This project was a challenge from Frontend mentor "
 			},
 			"demoLink": "https://zsolt270.github.io/Loopstudios-landing-page/",
 			"githubLink": "https://github.com/zsolt270/Loopstudios-landing-page"
@@ -44,8 +44,8 @@
 			"src": "./src/assets/projects/portfolio.webp",
 			"title": "My Portfolio",
 			"text": {
-				"HU": "valami",
-				"EN": "something"
+				"HU": "Ez a projekt a portfólió oldalam, amelyet most is láthat. Legfőképpen arra törekedtem, hogy egy átlátható és szép dizájnt készítsek, néhány animációval, annak érdekében hogy életet vigyek a weboldalba. A projekthez HTML/CSS-t, Bootstrapet, TypeScriptet és Reactet használtam. Amennyiben érdekel a kód, akkor megtalálhatod a Githubomon.",
+				"EN": "This project is my Portfolio website, which u can see now. For my portfolio I focused on making a clear and nice looking design with some animations to give life to the website. I used HTML/CSS, Bootstrap, TypeScript and React to create the website. If u are interested in the code, u can check it out on my Github."
 			},
 			"demoLink": "",
 			"githubLink": "https://github.com/zsolt270/Portfolio"
