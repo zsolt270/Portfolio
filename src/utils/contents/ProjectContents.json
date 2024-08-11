@@ -1,7 +1,7 @@
 {
 	"contents": [
 		{
-			"src": "./src/assets/projects/restcountry.png",
+			"src": "./src/assets/projects/restcountry.webp",
 			"title": "Rest Country",
 			"text": {
 				"HU": "valami",
@@ -11,7 +11,7 @@
 			"githubLink": "https://github.com/zsolt270/REST-COUNTRY"
 		},
 		{
-			"src": "./src/assets/projects/todoapp.png",
+			"src": "./src/assets/projects/todoapp.webp",
 			"title": "Todo App",
 			"text": {
 				"HU": "valami",
@@ -21,7 +21,7 @@
 			"githubLink": "https://github.com/zsolt270/TodoApp"
 		},
 		{
-			"src": "./src/assets/projects/piano.png",
+			"src": "./src/assets/projects/piano.webp",
 			"title": "Coloured-Piano",
 			"text": {
 				"HU": "valami",
@@ -31,7 +31,7 @@
 			"githubLink": "https://github.com/zsolt270/Coloured-Piano"
 		},
 		{
-			"src": "./src/assets/projects/loopstudios.png",
+			"src": "./src/assets/projects/loopstudios.webp",
 			"title": "Loop Studios",
 			"text": {
 				"HU": "valami",
@@ -41,7 +41,7 @@
 			"githubLink": "https://github.com/zsolt270/Loopstudios-landing-page"
 		},
 		{
-			"src": "./src/assets/projects/portfolio.png",
+			"src": "./src/assets/projects/portfolio.webp",
 			"title": "My Portfolio",
 			"text": {
 				"HU": "valami",
