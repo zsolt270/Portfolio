@@ -11,7 +11,7 @@
 			"githubLink": "https://github.com/zsolt270/REST-COUNTRY"
 		},
 		{
-			"src": "../../assets/projects/todoapp.webp",
+			"src": "../../assets/projects/todoapp.png",
 			"title": "Todo App",
 			"text": {
 				"HU": "A projekt egy kihívás a Frontend Mentor által, amit fullstackként készítettem el. Lehetővé teszi, hogy tennivalókat adjunk hozzá egy listához és megjelenítse őket. Befejezett vagy aktív státuszra változtassuk őket, szűrjük őket, és töröljünk egy adott vagy az összes tennivalókat. A frontend: HTML/CSS, Bootstrap, TypeScript, React. Backend: Node.js, Express.js. és Mongodb.",
