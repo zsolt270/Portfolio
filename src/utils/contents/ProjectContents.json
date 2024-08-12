@@ -24,8 +24,8 @@
 			"src": "./src/assets/projects/piano.webp",
 			"title": "Coloured-Piano",
 			"text": {
-				"HU": "valami",
-				"EN": "This was my final year project in the university. It is a fullstack app with registration, login, email verification...."
+				"HU": "Ez volt a szakdolgozatom projektje az egyetemen. Ez egy fullstack alkalmazás regisztrációval, bejelentkezéssel, e-mail megerősítéssel, elfelejtett jelszóval, automatikus inaktív fiókok törlésével és egy virtuális zongorával, amely a színes-kotta módszeren alapul. A weboldal célja a gyógypedagógusok munkájának segítése. A projektről további információt a Github tárolójában találhatsz.",
+				"EN": "This was my final year project in the university. It is a fullstack app with registration, login, email verification, forgot password, automated deletion of inactive accounts and a virtual piano based on the colored music notation. The goal of the website is to support the work of special needs teachers. U can read more about the project in its GitHub repository."
 			},
 			"demoLink": "https://github.com/zsolt270/Coloured-Piano",
 			"githubLink": "https://github.com/zsolt270/Coloured-Piano"
