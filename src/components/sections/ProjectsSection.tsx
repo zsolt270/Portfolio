@@ -14,12 +14,16 @@ export default function ProjectsSection() {
 		>
 			<div className='row text-center text-md-start mt-4'>
 				<h2>
-					{languageContext?.language === "HU" ? "Projekteim" : "My Projects"}
+					{languageContext?.language === "HU" ? "Projektjeim" : "My Projects"}
 				</h2>
 			</div>
 			<Carousel />
 			<div className='text-center mt-4'>
-				<p>FOR MORE PROJECTS</p>
+				<p>
+					{languageContext?.language == "HU"
+						? "TOVÁBBI PROJEKTJEIM"
+						: "FOR MORE PROJECTS"}
+				</p>
 				<a
 					target='_blank'
 					href='https://github.com/zsolt270'
@@ -29,7 +33,7 @@ export default function ProjectsSection() {
 							themeContext?.islight ? style.darkLink : style.lightLink
 						}`}
 					>
-						CLICK HERE
+						{languageContext?.language == "HU" ? "KATTINTS IDE" : "CLICK HERE"}
 					</span>{" "}
 				</a>
 			</div>
