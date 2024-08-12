@@ -1,4 +1,3 @@
-/* Majd a body-t és a span-t le kell váltani osztályokra és kell belőlük csinálni darkot és lightot, majd pedig azt váltogatni */
 .darkBody {
 	background-color: var(--darkModeBG);
 	color: var(--darkModeText) !important;

@@ -7,8 +7,6 @@ type SkillsRowProps = {
 	srcs: string[];
 };
 
-// lg(992px) ig jó az elrendezés
-
 export default function SkillsRow({ texts, srcs }: SkillsRowProps) {
 	const themeContext = useContext(ThemeContext);
 	const collumns = texts.map((text, index) => {
