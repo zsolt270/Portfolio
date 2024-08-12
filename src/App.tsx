@@ -19,6 +19,10 @@ function App() {
 				<Main />
 				<Footer />
 			</div>
+			<img
+				src='../src/assets/projects/todoapp.png'
+				alt=''
+			/>
 		</div>
 	);
 }
