@@ -26,7 +26,7 @@ This project is my Portfolio website. For my portfolio I focused on making a cle
 
 ### Screenshot
 
-![Screenshot of the Lightmode Desktop view]()
-![Screenshot of the Darkmode Desktop view]()
-![Screenshot of the Lightmode Mobile view]()
-![Screenshot of the Darkmode Mobile view]()
+![Screenshot of the Lightmode Desktop view](./public/lightmodeDesktop.png)
+![Screenshot of the Darkmode Desktop view](./public/darkmodeDesktop.png)
+![Screenshot of the Lightmode Mobile view](./public/lightmodeMobile.png)
+![Screenshot of the Darkmode Mobile view](./public/darkmodeMobile.png)
