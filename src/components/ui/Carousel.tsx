@@ -7,9 +7,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./css.modules/Carousel.css";
 import { NextArrow, PrevArrow } from "./SliderArrow";
-import * as ProjectsContent from "../../utils/contents/ProjectContents.json";
+import { projectContents } from "../../utils/contents/ProjectContents";
 
 export default function Carousel() {
+	console.log(
+		projectContents.map((content) => {
+			return content;
+		})
+	);
 	const themeContext = useContext(ThemeContext);
 	const languageContext = useContext(LanguageContext);
 	const settings = {
@@ -67,7 +72,7 @@ export default function Carousel() {
 	};
 	return (
 		<Slider {...settings}>
-			{ProjectsContent.contents.map((content) => {
+			{projectContents.map((content) => {
 				return (
 					<CarouselCard
 						key={content.title}

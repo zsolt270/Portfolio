@@ -1,9 +1,8 @@
 import style from "./css.modules/CarouselCard.module.css";
 import Button from "./Button";
-import valami from "../../assets/projects/portfolio.webp";
 
 type CarouselCardTProps = {
-	src?: string;
+	src: string;
 	title: string;
 	islight?: boolean;
 	text: string;
@@ -12,7 +11,7 @@ type CarouselCardTProps = {
 };
 
 export default function CarouselCard({
-	// src,
+	src,
 	title,
 	islight,
 	text,
@@ -27,7 +26,7 @@ export default function CarouselCard({
 				}`}
 			>
 				<img
-					src={valami}
+					src={src}
 					className={`${style.cardImgTop}`}
 					alt='...'
 				/>

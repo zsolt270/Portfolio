@@ -1,0 +1,58 @@
+import restCountry from "../../assets/projects/restcountry.webp";
+import todoApp from "../../assets/projects/todoapp.webp";
+import piano from "../../assets/projects/piano.webp";
+import loopstudios from "../../assets/projects/loopstudios.webp";
+import portfolio from "../../assets/projects/portfolio.webp";
+
+export const projectContents = [
+	{
+		src: restCountry,
+		title: "Rest Country",
+		text: {
+			HU: "Ez a projekt a Frontend Mentor egyik kihívása volt. A Rest Country API-t használja, ahhoz hogy információt szolgáltasson az országokról. Lehetőséget ad országok keresésére és kontinensek szerinti szelektálására. Az oldal reszponzív és külön oldalakkal rendelkezik hibák és az adatok betöltése esetében. További információért nézd meg a projekt github adattárát.",
+			EN: "This project was a challenge from Frontend Mentor. It uses the Rest Country API to provide informations about countries. It has an option to select countries by continents and a search bar. The website is responsive and has separate pages in case of loading and errors. For more informations about the project go to the project's github repository.",
+		},
+		demoLink: "https://zsolt270.github.io/REST-COUNTRY/",
+		githubLink: "https://github.com/zsolt270/REST-COUNTRY",
+	},
+	{
+		src: todoApp,
+		title: "Todo App",
+		text: {
+			HU: "A projekt egy kihívás a Frontend Mentor által, amit fullstackként készítettem el. Lehetővé teszi, hogy tennivalókat adjunk hozzá egy listához és megjelenítse őket. Befejezett vagy aktív státuszra változtassuk őket, szűrjük őket, és töröljünk egy adott vagy az összes tennivalókat. A frontend: HTML/CSS, Bootstrap, TypeScript, React. Backend: Node.js, Express.js. és Mongodb.",
+			EN: "This project was a challenge from Frontend Mentor. The project lets u add todos to a list and then shows them. It also lets u change them to completed or active status, filter them and to delete a specific todo or all of them. I made this project as a fullstack app. I used HTML/CSS, Bootstrap, TypeScript, React for the Frontend and Node.js, Express.js. and Mongodb for the backend.",
+		},
+		demoLink: "https://github.com/zsolt270/TodoApp",
+		githubLink: "https://github.com/zsolt270/TodoApp",
+	},
+	{
+		src: piano,
+		title: "Coloured-Piano",
+		text: {
+			HU: "Ez volt a szakdolgozatom projektje az egyetemen. Ez egy fullstack alkalmazás regisztrációval, bejelentkezéssel, e-mail megerősítéssel, elfelejtett jelszóval, automatikus inaktív fiókok törlésével és egy virtuális zongorával, amely a színes-kotta módszeren alapul. A weboldal célja a gyógypedagógusok munkájának segítése. A projektről további információt a Github tárolójában találhatsz.",
+			EN: "This was my final year project in the university. It is a fullstack app with registration, login, email verification, forgot password, automated deletion of inactive accounts and a virtual piano based on the colored music notation. The goal of the website is to support the work of special needs teachers. U can read more about the project in its GitHub repository.",
+		},
+		demoLink: "https://github.com/zsolt270/Coloured-Piano",
+		githubLink: "https://github.com/zsolt270/Coloured-Piano",
+	},
+	{
+		src: loopstudios,
+		title: "Loop Studios",
+		text: {
+			HU: "Ez a projekt a Frontend Mentor weboldal egyik kihívása volt. A projekt maga egy weboldal főoldalának a teljesen reszponszív felülete. Elkészítéséhez HTML/CSS-t, Bootstrapet, JavaScriptet és Reactet használtam. Ha érdekel maga a projekt akkor a demo gombra kattintva megtekintheted a demóját, illetve a GitHub gomra kattintva pedig a projekt kódját.",
+			EN: "This project was a challenge from the Frontend Mentor website. It is a fully responsive layout for the websites landing page. For the project I used HTML/CSS, Bootstrap, JavaScript and React. If u are interested in the project u can check out the live demo by clicking on the demo button. Also u can look into the code by clicking on the GitHub button under.",
+		},
+		demoLink: "https://zsolt270.github.io/Loopstudios-landing-page/",
+		githubLink: "https://github.com/zsolt270/Loopstudios-landing-page",
+	},
+	{
+		src: portfolio,
+		title: "My Portfolio",
+		text: {
+			HU: "Ez a projekt a portfólió oldalam, amelyet most is láthat. Legfőképpen arra törekedtem, hogy egy átlátható, reszponzív és szép dizájnt készítsek, néhány animációval, annak érdekében hogy életet vigyek a weboldalba. A projekthez HTML/CSS-t, Bootstrapet, TypeScriptet és Reactet használtam. Amennyiben érdekel a kód, akkor megtalálhatod a Githubomon.",
+			EN: "This project is my Portfolio website, which u can see now. For my portfolio I focused on making a clear, responsive and nice looking design with some animations to give life to the website. For the project I used HTML/CSS, Bootstrap, TypeScript and React to create the website. If u are interested in the code, u can check it out on my Github.",
+		},
+		demoLink: "",
+		githubLink: "https://github.com/zsolt270/Portfolio",
+	},
+];
