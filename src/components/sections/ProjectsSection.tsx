@@ -21,7 +21,7 @@ export default function ProjectsSection() {
 			<div className='text-center mt-4'>
 				<p>
 					{languageContext?.language == "HU"
-						? "TOVÁBBI PROJEKTJEIM"
+						? "TOVÁBBI PROJEKTJEIMÉRT"
 						: "FOR MORE PROJECTS"}
 				</p>
 				<a
