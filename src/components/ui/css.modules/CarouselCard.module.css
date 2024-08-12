@@ -10,8 +10,6 @@
 .lightCarouselCard,
 .darkCarouselCard {
 	max-width: 22.5rem;
-	/* min-height: 37rem !important; ez lehet nem kell a szövegektől függ ha 10 sor kijön mindegyiknél akkor nem kell */
-	/* mivel kicsit bugos valamiért néha, lesz egy keret a cardok körül */
 	box-shadow: 0;
 	transition: box-shadow 0.3s, scale 0.3s;
 }
