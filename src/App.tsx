@@ -4,6 +4,7 @@ import styles from "./App.module.css";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
+import valami from "./assets/projects/portfolio.webp";
 
 function App() {
 	const themeContext = useContext(ThemeContext);
@@ -20,7 +21,7 @@ function App() {
 				<Footer />
 			</div>
 			<img
-				src='../src/assets/projects/todoapp.png'
+				src={valami}
 				alt=''
 			/>
 		</div>
