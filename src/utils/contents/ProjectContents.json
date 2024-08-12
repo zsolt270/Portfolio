@@ -1,7 +1,7 @@
 {
 	"contents": [
 		{
-			"src": "../../../public/darkmodeDesktop.png",
+			"src": "https://zsolt270.github.io/Portfolio/assets/projects/restcountry.webp",
 			"title": "Rest Country",
 			"text": {
 				"HU": "Ez a projekt a Frontend Mentor egyik kihívása volt. A Rest Country API-t használja, ahhoz hogy információt szolgáltasson az országokról. Lehetőséget ad országok keresésére és kontinensek szerinti szelektálására. Az oldal reszponzív és külön oldalakkal rendelkezik hibák és az adatok betöltése esetében. További információért nézd meg a projekt github adattárát.",
