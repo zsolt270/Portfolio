@@ -1,7 +1,7 @@
 {
 	"contents": [
 		{
-			"src": "https://zsolt270.github.io/Portfolio/assets/projects/restcountry.webp",
+			"src": "../../assets/projects/restcountry.webp",
 			"title": "Rest Country",
 			"text": {
 				"HU": "Ez a projekt a Frontend Mentor egyik kihívása volt. A Rest Country API-t használja, ahhoz hogy információt szolgáltasson az országokról. Lehetőséget ad országok keresésére és kontinensek szerinti szelektálására. Az oldal reszponzív és külön oldalakkal rendelkezik hibák és az adatok betöltése esetében. További információért nézd meg a projekt github adattárát.",
@@ -11,7 +11,7 @@
 			"githubLink": "https://github.com/zsolt270/REST-COUNTRY"
 		},
 		{
-			"src": "./src/assets/projects/todoapp.webp",
+			"src": "../../assets/projects/todoapp.webp",
 			"title": "Todo App",
 			"text": {
 				"HU": "A projekt egy kihívás a Frontend Mentor által, amit fullstackként készítettem el. Lehetővé teszi, hogy tennivalókat adjunk hozzá egy listához és megjelenítse őket. Befejezett vagy aktív státuszra változtassuk őket, szűrjük őket, és töröljünk egy adott vagy az összes tennivalókat. A frontend: HTML/CSS, Bootstrap, TypeScript, React. Backend: Node.js, Express.js. és Mongodb.",
@@ -21,7 +21,7 @@
 			"githubLink": "https://github.com/zsolt270/TodoApp"
 		},
 		{
-			"src": "../../../src/assets/projects/piano.webp",
+			"src": "../../assets/projects/piano.webp",
 			"title": "Coloured-Piano",
 			"text": {
 				"HU": "Ez volt a szakdolgozatom projektje az egyetemen. Ez egy fullstack alkalmazás regisztrációval, bejelentkezéssel, e-mail megerősítéssel, elfelejtett jelszóval, automatikus inaktív fiókok törlésével és egy virtuális zongorával, amely a színes-kotta módszeren alapul. A weboldal célja a gyógypedagógusok munkájának segítése. A projektről további információt a Github tárolójában találhatsz.",
@@ -31,7 +31,7 @@
 			"githubLink": "https://github.com/zsolt270/Coloured-Piano"
 		},
 		{
-			"src": "../../assets/wave-icon.png",
+			"src": "../../assets/projects/loopstudios.webp",
 			"title": "Loop Studios",
 			"text": {
 				"HU": "Ez a projekt a Frontend Mentor weboldal egyik kihívása volt. A projekt maga egy weboldal főoldalának a teljesen reszponszív felülete. Elkészítéséhez HTML/CSS-t, Bootstrapet, JavaScriptet és Reactet használtam. Ha érdekel maga a projekt akkor a demo gombra kattintva megtekintheted a demóját, illetve a GitHub gomra kattintva pedig a projekt kódját.",
@@ -41,7 +41,7 @@
 			"githubLink": "https://github.com/zsolt270/Loopstudios-landing-page"
 		},
 		{
-			"src": "../../../src/assets/icons/figma-icon.svg",
+			"src": "portfolio/../../assets/projects/portfolio.webp",
 			"title": "My Portfolio",
 			"text": {
 				"HU": "Ez a projekt a portfólió oldalam, amelyet most is láthat. Legfőképpen arra törekedtem, hogy egy átlátható, reszponzív és szép dizájnt készítsek, néhány animációval, annak érdekében hogy életet vigyek a weboldalba. A projekthez HTML/CSS-t, Bootstrapet, TypeScriptet és Reactet használtam. Amennyiben érdekel a kód, akkor megtalálhatod a Githubomon.",
