@@ -14,7 +14,7 @@ This project is my Portfolio website. For my portfolio I focused on making a cle
 ### Built with
 
 - HTML
-- CSS custom properties
+- CSS
 - TypeScript
 - [Bootstrap](https://getbootstrap.com/)
 - [React](https://reactjs.org/)
